@@ -7,5 +7,12 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    {
+      resolve: `@lekoarts/gatsby-theme-cara`,
+      options: {
+        // basePath defaults to `/`
+        basePath: `/sideproject`,
+      },
+    },
   ],
 };
